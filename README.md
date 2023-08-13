@@ -51,7 +51,7 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/7
 
 フォームに数値を入力すると、下に1から入力値までの総和が出力されているのが確認できると思います！
 
-https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/f2a0198d-fe2e-4fae-a320-ab771e33b277
+https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/d942342a-e45f-4000-8e75-75149d581295
 
 しかし、このコードには良くない点があります。  
 それは、無駄な`useState`が使われているという点です。
