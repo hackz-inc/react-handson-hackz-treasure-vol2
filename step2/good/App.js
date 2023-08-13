@@ -18,13 +18,7 @@ export default function App() {
       <form>
         <label>
           数字を入力してね！
-          <input
-            value={input}
-            onChange={onChange}
-            type="number"
-            defaultValue={1}
-            min={1}
-          />
+          <input value={input} onChange={onChange} type="number" min={1} />
         </label>
       </form>
       <h1>
