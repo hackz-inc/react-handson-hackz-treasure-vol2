@@ -42,7 +42,7 @@ useStateを使うと、要素の表示非表示を制御することができま
 「開く」ボタンを押したら"Hello"が表示され、  
 「閉じる」ボタンを押したら非表示になることが確認できたらOKです！
 
-<!-- TODO: 動画の埋め込み -->
+https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/7b58558a-d8d1-4a16-a951-36d889ecfad6
 
 ## 【Step2】useStateを使っているコードをリファクタリングしてみよう
 
