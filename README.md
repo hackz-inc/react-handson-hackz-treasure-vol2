@@ -83,6 +83,8 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/d
 
 実行された時の出力は`console`にはき出されるので、ボタンを押して動きを確認してみてください！
 
+https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/814ac643-fff0-405c-b537-eeba0b83a702
+
 **※注意**: React18では`StrictMode`というものが設定されており、開発環境では初回のマウントが2度実行されてしまいます。そのため、初回のタイミングで実行されるものが2度実行されます。  
 これは**バグではない**のでご注意ください。  
 もし気になる方は、`index.js`を編集し`StrictMode`を削除すれば、1度だけしか動いていないことが確認できます！
