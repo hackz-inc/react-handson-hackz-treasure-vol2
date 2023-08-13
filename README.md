@@ -46,6 +46,23 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/7
 
 ## 【Step2】useStateを使っているコードをリファクタリングしてみよう
 
+次は、useStateを使ったコードをよりよくしてみましょう！  
+`App.js`に[`step2/bad/App.js`](step2/bad/App.js)をコピーして見ましょう。
+
+フォームに数値を入力すると、下に1から入力値までの総和が出力されているのが確認できると思います！
+
+<!-- TODO: 動画の埋め込み -->
+
+しかし、このコードには良くない点があります。  
+それは、無駄な`useState`が使われているという点です。
+
+このコードを編集して、1つの`useState`だけで実装してみましょう！
+
+ポイントは、「何の状態を管理したいか」です！
+
+もし、上手くいかない場合には解答例を[`step2/good/App.js`](step2/good/App.js)に置いているので、  
+参考にしてみてください！
+
 ## 【Step3】useEffectを使ってみよう　その1
 
 ## 【Step4】useEffectを使ってみよう　その2

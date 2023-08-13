@@ -2,7 +2,10 @@ import { useState } from "react";
 import "./styles.css";
 
 export default function App() {
+  // 入力値を管理するステート
   const [input, setInput] = useState(1);
+
+  // 入力値から総和を算出
   const sum = (input * (input + 1)) / 2;
 
   const onChange = (event) => {

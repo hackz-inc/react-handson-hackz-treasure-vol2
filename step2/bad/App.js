@@ -2,9 +2,13 @@ import { useState } from "react";
 import "./styles.css";
 
 export default function App() {
+  // 入力値を管理するステート
   const [input, setInput] = useState(1);
+
+  // 総和を管理するステート
   const [sum, setSum] = useState(1);
 
+  // 入力値が変更された時に実行される関数
   const onChange = (event) => {
     const value = Number(event.target.value);
     setInput(value);
