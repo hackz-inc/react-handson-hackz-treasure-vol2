@@ -97,7 +97,7 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/8
 [`step4/App.js`](step4/App.js)のコードをコピーまたは写経してみましょう。  
 以下のように画像が表示されていれば成功です！
 
-<!-- TODO: 画像の追加 -->
+![犬の画像を取得](https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/200dee86-20cc-4d1f-a0ed-9b66db0a1790)
 
 **※注意**: このAPIはランダム取得のため、`StrictMode`の影響により画像が一回だけ画像が切り替わるように見えますが、バグではありません。
 
