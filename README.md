@@ -73,12 +73,8 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/2
 
 https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/91181399-059f-4086-9be8-81809187a3d7
 
-このコードを修正して正しく動かしてみましょう！
-
-また、このコードには直接バグの原因にはなっていませんが**良くない点**があります。  
-そこも合わせて解消してみましょう！
-
-ポイントは、「**何の状態を管理したいか**」です。
+このコードを修正して正しく動かしてみましょう！  
+修正ポイントは2つあります。
 
 もし、上手くいかない場合には解答例を[`step3/good/App.js`](step3/good/App.js)に置いているので、  
 参考にしてみてください！
