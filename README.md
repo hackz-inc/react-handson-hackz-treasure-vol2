@@ -36,7 +36,7 @@
 
 ※大枠のコードは全て用意していますが、コピペをするより実際に書いた方がより理解が深まるので、あまり分かっていないよという人は是非写経してみてください！
 
-## 【Step1】useStateを使ってみよう
+## 【Step1】useStateを使ってみよう その1
 
 `useState`を使うと、要素の表示非表示を制御することができます。  
 [`step1/App.js`](step1/App.js)をコピーまたは写経して、どのように動くか見てみましょう！
@@ -46,10 +46,15 @@
 
 https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/7b58558a-d8d1-4a16-a951-36d889ecfad6
 
-## 【Step2】useStateを使っているコードをリファクタリングしてみよう
+## 【Step2】useStateを使ってみよう その2
+
+`useState`の`setState`(更新関数)で、前の値を元に値を更新する場合には引数に関数を挿入します。  
+
+
+## 【Step3】useStateを使っているコードをリファクタリングしてみよう
 
 次は、`useState`を使ったコードをよりよくしてみましょう！  
-`App.js`に[`step2/bad/App.js`](step2/bad/App.js)をコピーして見ましょう。
+`App.js`に[`step3/bad/App.js`](step3/bad/App.js)をコピーして見ましょう。
 
 フォームに数値を更新すると、下に1から入力値までの総和が出力されているのが確認できると思います！
 
@@ -62,14 +67,14 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/d
 
 ポイントは、「何の状態を管理したいか」です！
 
-もし、上手くいかない場合には解答例を[`step2/good/App.js`](step2/good/App.js)に置いているので、  
+もし、上手くいかない場合には解答例を[`step3/good/App.js`](step3/good/App.js)に置いているので、  
 参考にしてみてください！
 
-## 【Step3】useEffectを使ってみよう　その1
+## 【Step4】useEffectを使ってみよう　その1
 
 ここでは、`useEffect`が**実行されるタイミング**を理解します！
 
-まずは、[`step3/App.js`](step3/App.js)のコードをコピーまたは写経してみましょう！
+まずは、[`step4/App.js`](step4/App.js)のコードをコピーまたは写経してみましょう！
 
 このコードは、それぞれボタンを押すと上部の数字がカウントアップされていくコードとなります。  
 `num1`, `num2`はそれぞれ`useState`で管理してあります。
@@ -89,18 +94,18 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/8
 これは**バグではない**のでご注意ください。  
 もし気になる方は、`index.js`を編集し`StrictMode`を削除すれば、1度だけしか動いていないことが確認できます！
 
-## 【Step4】useEffectを使ってみよう　その2
+## 【Step5】useEffectを使ってみよう　その2
 
 `useEffect`は外部からデータを取得するときに使用されます。  
 今回は犬の画像をランダムで取得できるAPIを使って試してみます！
 
-[`step4/App.js`](step4/App.js)のコードをコピーまたは写経してみましょう。  
+[`step5/App.js`](step5/App.js)のコードをコピーまたは写経してみましょう。  
 以下のように画像が表示されていれば成功です！
 
 ![犬の画像を取得](https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/200dee86-20cc-4d1f-a0ed-9b66db0a1790)
 
 **※注意**: このAPIはランダム取得のため、`StrictMode`の影響により画像が一回だけ画像が切り替わるように見えますが、バグではありません。
 
-## 【Step5】useEffectを使ってみよう　その3
+## 【Step6】useEffectを使ってみよう　その3
 
-## 【Step6】useEffectを使っているコードをリファクタリングしてみよう
+## 【Step7】useEffectを使っているコードをリファクタリングしてみよう
