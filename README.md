@@ -91,6 +91,16 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/8
 
 ## 【Step4】useEffectを使ってみよう　その2
 
+`useEffect`は外部からデータを取得するときに使用されます。  
+今回は犬の画像をランダムで取得できるAPIを使って試してみます！
+
+[`step4/App.js`](step4/App.js)のコードをコピーまたは写経してみましょう。  
+以下のように画像が表示されていれば成功です！
+
+<!-- TODO: 画像の追加 -->
+
+**※注意**: このAPIはランダム取得のため、`StrictMode`の影響により画像が一回だけ画像が切り替わるように見えますが、バグではありません。
+
 ## 【Step5】useEffectを使ってみよう　その3
 
 ## 【Step6】useEffectを使っているコードをリファクタリングしてみよう
