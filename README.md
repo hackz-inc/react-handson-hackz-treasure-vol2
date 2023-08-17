@@ -71,8 +71,7 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/2
 
 しかし、このコードを反映させてみると以下のように予期していない動きになってしまいます。
 
-<!-- TODO: 動画のうめこみ -->
-
+https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/91181399-059f-4086-9be8-81809187a3d7
 
 このコードを修正して正しく動かしてみましょう！
 
@@ -86,7 +85,7 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/2
 
 正しい動き
 
-<!-- TODO: 動画の埋め込み -->
+https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/4cb174e0-5640-48eb-8d04-a72fec232e61
 
 ## 【Step4】useEffectを使ってみよう　その1
 
