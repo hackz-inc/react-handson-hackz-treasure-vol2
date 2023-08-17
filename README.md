@@ -44,7 +44,7 @@
 「開く」ボタンを押したら"Hello"が表示され、  
 「閉じる」ボタンを押したら非表示になることが確認できたらOKです！
 
-https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/7b58558a-d8d1-4a16-a951-36d889ecfad6
+https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/62d930ef-0970-442d-b203-ebc970275b2f
 
 ## 【Step2】useStateを使ってみよう その2
 
@@ -57,7 +57,7 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/7
 「開く」を押したら"Hello"が表示されボタンの文言が変わり、  
 「閉じる」を押したらその逆の動きをすることが確認できたらOKです！
 
-<!-- TODO: 動画の埋め込み -->
+https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/23f1bdb1-6141-4ef1-b75e-c3fb2e47d8c5
 
 このように、元のステートを使ってステートを更新する場合には、  
 `setState`に関数を入れましょう。
@@ -69,7 +69,7 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/7
 
 フォームに数値を更新すると、下に1から入力値までの総和が出力されているのが確認できると思います！
 
-https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/d942342a-e45f-4000-8e75-75149d581295
+https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/e246a1f3-d83a-4522-a9bc-10b4ff589914
 
 しかし、このコードには良くない点があります。  
 それは、無駄な`useState`が使われているという点です。
@@ -99,7 +99,7 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/d
 
 実行された時の出力は`console`にはき出されるので、ボタンを押して動きを確認してみてください！
 
-https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/814ac643-fff0-405c-b537-eeba0b83a702
+https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/e51ae1fa-2458-4b51-a38a-28a0534f6f2d
 
 **※注意**: React18では`StrictMode`というものが設定されており、開発環境では初回のマウントが2度実行されてしまいます。そのため、初回のタイミングで実行されるものが2度実行されます。  
 これは**バグではない**のでご注意ください。  
