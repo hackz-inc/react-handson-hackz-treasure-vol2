@@ -115,17 +115,27 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/e
 [`step5/App.js`](step5/App.js)のコードをコピーまたは写経してみましょう。  
 以下のように画像が表示されていれば成功です！
 
-![犬の画像を取得](https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/200dee86-20cc-4d1f-a0ed-9b66db0a1790)
+![犬の画像を取得]
+<!-- TODO: 画像の追加 -->
 
 今回クリーンアップ処理で通信を切るということをしていますが、  
 この処理を消してみると`StrictMode`の影響により画像が2回取得され、画像が切り替わるように表示されることを確認してみましょう。  
 このようにクリーンアップ処理を書くことによって、余計な処理を無くしていることが分かります。
 
-## 【Step6】useEffectを使ってみよう　その3
+## 【Step6】useEffectを使っているコードをリファクタリングしてみよう
 
 ここでは、`setInterval`と`useEffect`を使って、ストップウォッチを作ってみます。
 
-[`step6/App.js`](step6/App.js)のコードをコピーまたは写経してみましょう。  
-以下のように画像が表示されていれば成功です！
+[`step6/bad/App.js`](step6/bad/App.js)のコードをコピーしてみましょう。  
+このコードはうまく動きません。
 
-## 【Step7】useEffectを使っているコードをリファクタリングしてみよう
+<!-- TODO: 動画の追加 -->
+
+こちらも修正ポイントは2つあります!
+
+もし、上手くいかない場合には解答例を[`step6/good/App.js`](step6/good/App.js)に置いているので、  
+参考にしてみてください！
+
+正しい動き
+
+<!-- TODO: 動画の追加 -->
