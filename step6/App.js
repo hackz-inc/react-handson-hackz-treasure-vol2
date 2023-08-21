@@ -21,6 +21,9 @@ export default function App() {
       <button onClick={() => setStart((prev) => !prev)}>
         {isStart ? "ストップ" : "スタート"}
       </button>
+      <button onClick={() => setCount(0)} disabled={isStart}>
+        クリア
+      </button>
     </main>
   );
 }
