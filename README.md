@@ -121,7 +121,7 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/e
 この処理を消してみると`StrictMode`の影響により画像が2回取得され、画像が切り替わるように表示されることを確認してみましょう。  
 このようにクリーンアップ処理を書くことによって、余計な処理を無くしていることが分かります。
 
-## 【Step6】useEffectを使っているコードをリファクタリングしてみよう
+## 【Step6】useEffectを使ったコードを修正してみましょう！ 
 
 ここでは、`setInterval`と`useEffect`を使って、ストップウォッチを作ってみます。
 
