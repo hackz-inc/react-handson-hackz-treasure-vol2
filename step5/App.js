@@ -7,13 +7,22 @@ export default function App() {
 
   // アクセス時にデータを取得
   useEffect(() => {
+    const abortController = new AbortController();
+
     // useEffectでは非同期関数を扱えないため、即時関数で定義する
     (async () => {
-      const res = await fetch("https://dog.ceo/api/breeds/image/random");
+      const res = await fetch("https://dog.ceo/api/breeds/image/random", {
+        signal: abortController.signal
+      });
       const json = await res.json();
 
       setImageUrl(json["message"]);
     })();
+
+    return () => {
+      // アンマウント時に通信を切る
+      abortController.abort();
+    };
   }, []);
 
   return (
