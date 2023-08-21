@@ -115,8 +115,7 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/e
 [`step5/App.js`](step5/App.js)のコードをコピーまたは写経してみましょう。  
 以下のように画像が表示されていれば成功です！
 
-![犬の画像を取得]
-<!-- TODO: 画像の追加 -->
+![犬の画像を取得](https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/8c92fd67-384b-4e65-9051-4f0fdd699d75)
 
 今回クリーンアップ処理で通信を切るということをしていますが、  
 この処理を消してみると`StrictMode`の影響により画像が2回取得され、画像が切り替わるように表示されることを確認してみましょう。  
@@ -129,7 +128,7 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/e
 [`step6/bad/App.js`](step6/bad/App.js)のコードをコピーしてみましょう。  
 このコードはうまく動きません。
 
-<!-- TODO: 動画の追加 -->
+https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/4e482c9d-4864-4cb8-862f-317d745b3966
 
 こちらも修正ポイントは2つあります!
 
@@ -138,4 +137,4 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/e
 
 正しい動き
 
-<!-- TODO: 動画の追加 -->
+https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/b941ca1f-e8f7-483c-9be5-bc001ee0ca42
