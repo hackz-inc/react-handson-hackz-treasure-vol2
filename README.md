@@ -138,3 +138,12 @@ https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/4
 正しい動き
 
 https://github.com/hackz-inc/react-handson-hackz-treasure-vol2/assets/50654077/b941ca1f-e8f7-483c-9be5-bc001ee0ca42
+
+## さいごに
+
+ここまで終わったら、`useState, useEffect`について少しだけでも理解が深まったかと思います！
+
+Reactフックはこれ以外にもたくさんあります。  
+たくさんコードを書いて、勉強しましょう！
+
+今回はここまでとなります。お疲れ様でした！！
