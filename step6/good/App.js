@@ -6,13 +6,13 @@ export default function App() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    if (isStart) {
-      const timer = setInterval(() => {
-        setCount((prevCount) => prevCount + 1);
-      }, 1000);
+    if (!isStart) return;
 
-      return () => clearInterval(timer);
-    }
+    const timer = setInterval(() => {
+      setCount((prevCount) => prevCount + 1);
+    }, 1000);
+
+    return () => clearInterval(timer);
   }, [isStart]);
 
   return (
